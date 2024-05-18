@@ -1,0 +1,32 @@
+.btn {
+    padding: 16px 24px;
+    border: none;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background-color: rgba(0, 117, 255, 1);
+}
+
+.call__btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.call__btn img {
+    width: 26%;
+}
+
+.number__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.number__info span {
+    display: inline-block;
+}
+
+@media (max-width: 500px)  {
+    .call__btn img {
+        width: 23%;
+    }
+}
